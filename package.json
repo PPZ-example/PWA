@@ -1,0 +1,20 @@
+{
+  "name": "pwa",
+  "version": "0.0.1",
+  "description": "PWA examples",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server ./",
+    "publish": "gh-pages -d ./PWA"
+  },
+  "keywords": [
+    "ppz",
+    "pwa"
+  ],
+  "author": "PPz",
+  "license": "Unlicense",
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "http-server": "^14.1.1"
+  }
+}
