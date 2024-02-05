@@ -1,10 +1,15 @@
 # PWA examples
-PWA (Progressive Web App)，比 WA (Web App，就是普通网页) 多了一个 P。
+PWA (Progressive Web App)，比 WA (Web App，就是普通网页) 只多了一个 P。
 
 ## 最简 PWA
-最简单的  只是在普通网页（Web App）的基础上，在 `<head>` 标签里添加一个标签，这个标签要加载一个配置文件（就像我们使用 `<link>` 标签来加载 css 文件一样），……
-+ [源码](../PWA/simple)
-+ [线上效果]()
+最简单的 PWA 只是在普通网页的基础上，
+在 `<head>` 标签里，
+添加一个标签，
+这个标签要加载一个配置文件（就像我们使用 `<link>` 标签来加载 css 文件一样），
+……
+
++ [源码](./PWA/simple)
++ [线上效果](https://ppz-example.github.io/PWA/simple/)
 
 ## 纯静态网站缓存策略
 如果你的网站：
