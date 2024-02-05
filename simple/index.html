@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="manifest" href="./manifest.json">
+    <script>
+      if(navigator.serviceWorker)
+        navigator.serviceWorker.register(
+          './sw.js', // 第一个参数是 service worker 的路径
+          {
+            // scope 取值为 index.html 的路径，如果 index.html 在根目录，则 scope 为 '/'。
+            scope: '/PWA/simple/'
+          },
+        )
+    </script>
+  </head>
+  <body>
+    This is an installable web app.
+  </body>
+</html>
